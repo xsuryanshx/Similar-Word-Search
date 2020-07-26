@@ -11,7 +11,7 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 nltk.download('wordnet')
 
-word_embeddings_loc = 'F:/glove.6B.50d.txt' #LOCATION OF THE GLOVE WORD EMBEDDING
+word_embeddings_loc = '#ENTER PRETRAINED WORD EMBEDDING#' #LOCATION OF THE GLOVE WORD EMBEDDING eg. F:/glove.6B.50d.txt
 
 #NOW WE WIL PREPROCESS THE DATA
 def preprocessing(document):
